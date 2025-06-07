@@ -55,10 +55,37 @@ header::before{
 
 .search-form{
     position: absolute;
-    top: 50px;
+    top: 190px;
     left: 50px;
     width: 100%;
 }
 .film-icon{
     fill: #2E2E2F;
+}
+
+.movie-info-container, .movie-title-rating, .movie-runtime-genre{
+    display: grid;
+
+}
+
+
+.movie-runtime-genre{
+    justify-content: space-around;
+}
+
+.add-towatchlist{
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: #121212;
+    font-weight: 900;
+
+}
+
+.add-watchlist-btn{
+    background-color: #121212;
+    border: none;
+    color: #FFFFFF;
+
+
 }
